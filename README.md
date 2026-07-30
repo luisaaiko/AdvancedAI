@@ -18,9 +18,8 @@ The project follows the abstract direction of comparing BERT-based sentiment mod
 
 The project uses the Kaggle Hotel Reviews Dataset derived from TripAdvisor hotel reviews. The raw dataset contains review text, overall ratings, and aspect-level hotel ratings. The preprocessing notebook creates a binary sentiment label from the overall rating:
 
-- Ratings 1-2: negative sentiment (`0`)
+- Ratings 1-3: negative sentiment (`0`)
 - Ratings 4-5: positive sentiment (`1`)
-- Rating 3: excluded from the binary task
 
 Expected raw file location:
 
